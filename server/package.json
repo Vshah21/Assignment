@@ -1,0 +1,28 @@
+{
+  "name": "interview-assignment",
+  "author": "Vishal Shah",
+  "version": "1.0.0",
+  "description": "We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, selection of 3rd party libraries, documentation etc.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/luminalearning/interview-assignment.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/luminalearning/interview-assignment/issues"
+  },
+  "homepage": "https://bitbucket.org/luminalearning/interview-assignment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.1"
+  }
+}

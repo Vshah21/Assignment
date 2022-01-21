@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+.root{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.btn{
+    color:blue;
+}
+.container {
+    padding: 30px;
+  }
+  
+input{
+    display: block;
+}
+.active{
+    display: none;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+#login-btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .movie_container{
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 10px;
+  }
+  h1{
+      text-align: center;
+  }
+
+  .remove_btn{
+    color: #fff;
+    background-color: rgb(172, 38, 38);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .remove_btn:hover{
+    background-color: rgb(192, 61, 61);
+
+  }
+  .sign_out-btn{
+      position: absolute;
+      right: 20px;
+      top:20px;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor:pointer;
+      
+  }
