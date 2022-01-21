@@ -37,7 +37,7 @@ Javascript - It is a simple and easy to understand. I tried to use React but nee
 
 - Add feature that adds the movie to the users favourites.
 
--The web page needs routing to different pages but still following the SPA rule. A react router dom dependency can be used in react.
+- The web page needs routing to different pages but still following the SPA rule. A react router dom dependency can be used in react.
 
 - Even though pg-promise is a good interface for nodejs, it only allows PostgresSql as a database which can be restricting if you would like to use another database. There are other tools such as knex.js, pg to connect and send requests to the database.
 
