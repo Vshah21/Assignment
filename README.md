@@ -19,6 +19,8 @@ Javascript - It is a simple and easy to understand. I tried to use React but nee
 
 - Created a login page. If login details are correct it displays the favourite movies for the user logged in.
 
+- Can Delete whichever movie when clicked on the delete but unfortunately doesnt update in the browser but the database is updated.
+
 ## Struggle
 - Struggled with understanding promises and how to use the async and await method in javascript.
 
@@ -35,11 +37,15 @@ Javascript - It is a simple and easy to understand. I tried to use React but nee
 
 - Add a Register feature to allow new users to access the website.
 
-- Add feature that adds the movie to the users favourites.
+- Users can change their passwords if they have forgotten it.
+
+- An Add feature that adds the movie to the users favourites.
 
 - The web page needs routing to different pages but still following the SPA rule. A react router dom dependency can be used in react.
 
 - Even though pg-promise is a good interface for nodejs, it only allows PostgresSql as a database which can be restricting if you would like to use another database. There are other tools such as knex.js, pg to connect and send requests to the database.
+
+- Deploy the App to a cloud based service such as heroku or digital ocean
 
 ## Security issues
 
